@@ -1,0 +1,10 @@
+n=int(input())
+i=f=1
+while(f<=n):
+    f=f*i
+    if f==n:
+        print("Yes")
+        break
+    i=i+1
+else:
+    print("No")
